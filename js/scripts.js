@@ -1,3 +1,15 @@
+function updateText() {
+    $.i18n().load('js/i18n/en.json', 'en' ).done(function() {
+        $('html').i18n()
+    })
+}
+
+
+$( document ).ready( function ( $ ) {
+	'use strict';
+	updateText();
+} );
+
 $(function () {
 
     // init feather icons
