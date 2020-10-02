@@ -1,4 +1,7 @@
 {
 	"app-title": "iCuerpo - Rutinas de gimnasio",
-	"main-title": "La mejor manera de tener registros para tus entrenamientos."
+  "main-title": "La mejor manera de tener registros para tus entrenamientos.",
+  "social": "Mantente en contacto",
+  "main-desc": "iCuerpo te permite llevar cuenta de tus avances en el gimnasio sin complicaciones.",
+  "second-desc": "Todas tus rutinas en la palma de tus manos."
 }
