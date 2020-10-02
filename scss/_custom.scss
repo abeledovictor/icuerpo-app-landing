@@ -361,6 +361,7 @@ footer {
 
 /*theme switcher*/
 .switcher-wrap {
+    display: none;
     position: fixed;
     top: 250px;
     width: 250px;
@@ -431,6 +432,6 @@ footer {
 
 @media screen and (max-width: 768px) {
     .switcher-wrap {
-        display: none; 
+  display: none;        display: none; 
     } 
 }
