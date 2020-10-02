@@ -1,5 +1,9 @@
 function updateText() {
-    $.i18n().load('js/i18n/en.json', 'en' ).done(function() {
+    var lang = (navigator.language && navigator.language.split('-')[0] === 'es')
+        ? 'es'
+        : 'en'
+
+    $.i18n().load('js/i18n/' + lang + '.json', lang ).done(function() {
         $('html').i18n()
     })
 }
