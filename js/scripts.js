@@ -1,5 +1,7 @@
 function updateText() {
-    $.i18n().load('js/i18n/en.json', 'en' );
+    $.i18n().load('js/i18n/en.json', 'en' ).done(function() {
+        $('html').i18n()
+    })
 }
 
 
