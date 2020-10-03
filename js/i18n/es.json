@@ -3,5 +3,17 @@
   "main-title": "La mejor manera de tener registros para tus entrenamientos.",
   "social": "Mantente en contacto",
   "main-desc": "iCuerpo te permite llevar cuenta de tus avances en el gimnasio sin complicaciones.",
-  "second-desc": "Todas tus rutinas en la palma de tus manos."
+  "second-desc": "Todas tus rutinas en la palma de tus manos.",
+	"feature-title-1": "Cronometra tus entrenamientos",
+	"feature-title-2": "Temporizador de descanso",
+	"feature-title-3": "Cronómetro para ejercicios por tiempo",
+	"feature-title-4": "Calendario",
+	"feature-title-5": "Ejercicios personalizados",
+	"feature-title-6": "Sigue tu progreso",
+	"feature-desc-1": "Sabrás con exactitud cuanto te lleva terminar tu rutina.",
+	"feature-desc-2": "Configura el tiempo de descanso óptimo entre sets y recibe una notificacion cuando sea tiempo de volver al siguiente set.",
+	"feature-desc-3": "¿Con ganas de correr por 5 minutos? Puedes usar el cronómetro que incluye la app.",
+	"feature-desc-4": "Revisa los dias que has entrenado y que rutina has completado.",
+	"feature-desc-5": "Puedes crear ejercicios y asignarles los grupos musculares que trabajan.",	
+	"feature-desc-6": "Tu progreso y tus avances están en la sección de estadísticas de iCuerpo."
 }
