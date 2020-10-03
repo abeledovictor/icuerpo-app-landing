@@ -1,10 +1,24 @@
+function doTranslate(lcl) {
+    $.i18n().locale = lcl;
+    $('html').i18n();
+}
+
 function updateText() {
     var lang = (navigator.language && navigator.language.split('-')[0] === 'es')
         ? 'es'
         : 'en'
 
-    $.i18n().load('js/i18n/' + lang + '.json', lang ).done(function() {
-        $('html').i18n()
+    $.i18n().load({
+        en: 'js/i18n/en.json',
+        es: 'js/i18n/es.json'
+    }).done(function() {
+        doTranslate(lang);
+
+        // attach function only after first locale is loaded
+        $(".js-switch-locale").click(function() {
+            const nextLocale = $(this).data('locale');
+            doTranslate(nextLocale);
+        });
     })
 }
 
