@@ -1,2 +1,2 @@
 # icuerpo-app-landing
-iCuerpo app landing page
+Iron Pal app landing page
